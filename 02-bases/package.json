@@ -1,0 +1,13 @@
+{
+  "name": "02-bases",
+  "version": "1.0.0",
+  "description": "esta es mi primera aplicacion real de node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "echo 'Hola Mundo desde dev'"
+  },
+  "author": "NeryColorado",
+  "license": "ISC"
+}
