@@ -5,5 +5,5 @@
 const {SHELL, HOMEBREW_PREFIX} = process.env; 
 //console.table({ SHELL, HOMEBREW_PREFIX});
 
-const characters = ['Goku', 'Vegeta', 'Trunks'];
-const [ , , Goku ] = characters;
+const characters = ['Goku', 'Vegeta','Nery' , 'Trunks'];
+const [ , , ,Goku ] = characters;
