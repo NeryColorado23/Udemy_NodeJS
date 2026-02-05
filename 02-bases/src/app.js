@@ -8,12 +8,23 @@
 
 
 //importar 03-callbacks.js 
-const {getUserById} = require('./js-foundation/03-callbacks');
+//const {getUserById} = require('./js-foundation/03-callbacks');
+
+//uso de archivo 4 arrow
+//const {getUserById} = require('./js-foundation/04-arrow');
+
+//importar 05-factory.js
+require('./js-foundation/05-factory');
+
+
+/*
 //enviar id a la funcion usando callback, porque en el otro no imprimo nada
 const id = 2;
-getUserById(id, function(error, user){
+getUserById(id, (error, user) =>{
     if(error){
         throw new Error('User not found with id', id);
     }
-    console.log(user);
+    console.log({user});
 });
+
+*/
